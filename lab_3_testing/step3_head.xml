@@ -1,0 +1,11 @@
+<Headers>
+	<JMSHeaders>
+		<JMSDeliveryMode>1</JMSDeliveryMode>
+		<JMSPriority>5</JMSPriority>
+		<JMSType>3</JMSType>
+		<JMSPersistentSize>${persistentSize}</JMSPersistentSize>
+	</JMSHeaders>
+	<JMSProperties>
+		<UIPSYSTEMDATA>${uipsystemdata}</UIPSYSTEMDATA>
+	</JMSProperties>
+</Headers>
