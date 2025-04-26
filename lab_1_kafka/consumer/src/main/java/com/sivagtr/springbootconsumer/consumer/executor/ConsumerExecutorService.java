@@ -46,10 +46,10 @@ public class ConsumerExecutorService {
 		// Настройки для SSL
 		properties.put("security.protocol", "SASL_SSL");
 		properties.put("ssl.truststore.location", "C:\\keystore_reg.pfx");
-		properties.put("ssl.truststore.password", "mika2002");
+		properties.put("ssl.truststore.password", "<password>");
 		properties.put("ssl.keystore.location", "C:\\keystore_reg.pfx");
-		properties.put("ssl.keystore.password", "mika2002");
-		properties.put("ssl.key.password", "mika2002");
+		properties.put("ssl.keystore.password", "<password>");
+		properties.put("ssl.key.password", "<password>");
 		
 		// Настройки для SASL
 		properties.put("sasl.mechanism", "PLAIN");
